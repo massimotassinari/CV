@@ -38,3 +38,35 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+function mostrarSkills(){
+    Skillspart.innerHTML += `
+    <h1>Python</h1>
+    <progress id="file" max="100" value="70"> 10% </progress>
+    <label for="file"> 70%</label>
+
+    
+
+    <h1>Java</h1>
+    <progress id="file" max="100" value="60"> 10% </progress>
+    <label for="file"> 60%</label>
+
+    <h1>HTML</h1>
+    <progress id="file" max="100" value="15"> 10% </progress>
+    <label for="file"> 15%</label>
+
+    <h1>JavaScript</h1>
+    <progress id="file" max="100" value="15"> 10% </progress>
+    <label for="file"> 15%</label>
+
+    <h1>Git</h1>
+    <progress id="file" max="100" value="50"> 10% </progress>
+    <label for="file"> 50%</label>
+
+    <h1>CSS</h1>
+    <progress id="file" max="100" value="20"> 10% </progress>
+    <label for="file"> 20%</label>
+
+    `;
+}
+

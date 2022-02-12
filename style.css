@@ -178,3 +178,31 @@ nav {
   background-color: #fff;
   font-size: 2rem;
 }
+
+/*El about me*/
+
+.About-Me {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.About-Me h2 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.About-Me h3 {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.About-Me img {
+  max-width: 50%;
+  max-height: 50%;
+  text-align: justify;
+  border-radius: 50%;
+}
+/*Skills */
+
+.progress-bar {
+}
