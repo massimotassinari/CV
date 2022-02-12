@@ -1,4 +1,6 @@
-
+const nombre = document.getElementById("nombre");
+const correo = document.getElementById("correo");
+const mensaje = document.getElementById("mensaje");
 
 //funcion que me desplega el menu bar
 
@@ -70,3 +72,22 @@ function mostrarSkills(){
     `;
 }
 
+function enviarMensaje(){
+    const nombrePrep = nombre.value;
+    console.log(nombrePrep)
+
+    
+    
+
+    const correoPrep = correo.value;
+    console.log(correoPrep)
+
+    const mensajePrep = mensaje.value;
+    console.log(mensajePrep)
+
+    window.alert("“Su solicitud ha sido enviada")
+
+    form.reset();
+
+
+}
